@@ -2,10 +2,12 @@
 streamlit==1.32.2
 numpy>=1.24.0
 pandas>=2.0.0
-pillow>=9.5.0
+# 改用固定稳定版，避免源码编译
+pillow==10.1.0
+
 opencv-python>=4.8.0
 
-# PyTorch 相关：移除固定版本号，让云端自动匹配可用版本
+# PyTorch 相关
 torch
 torchvision
 
