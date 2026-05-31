@@ -1,8 +1,15 @@
-streamlit
+streamlit==1.32.2
 numpy
 pandas
 pillow
+opencv-python
 torch
 torchvision
-ultralytics
+matplotlib
+seaborn
+altair
+tqdm
+protobuf
+jieba
 requests
+ultralytics
