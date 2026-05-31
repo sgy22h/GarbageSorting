@@ -5,9 +5,9 @@ pandas>=2.0.0
 pillow>=9.5.0
 opencv-python>=4.8.0
 
-# PyTorch 相关（适配 ultralytics 与 Streamlit 环境）
-torch==2.1.0
-torchvision==0.16.0
+# PyTorch 相关：移除固定版本号，让云端自动匹配可用版本
+torch
+torchvision
 
 # 可视化与工具库
 matplotlib>=3.7.0
